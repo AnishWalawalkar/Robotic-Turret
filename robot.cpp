@@ -28,7 +28,7 @@ bool target[RANGE];
 /********************************************************************
  A-2 Function: defaultPos
 =====================================================================
-* Written By: Victor Vuong
+* Written By: Anish Walawalkar
 * Purpose: Sets the TURRETMOTOR to the initial position, which is 0
 	degrees on the horizontal axis, and resets the motor encoder
 	so the encoder values can be used a reference.
@@ -51,7 +51,7 @@ void defaultPos()
 /********************************************************************
 A-3 Function: defaultBullet
 =====================================================================
-* Written By: Victor Vuong
+* Written By: Anish Walawalkar
 * Purpose:Sets the BULLETMOTOR to its optimal firing position
 	(all the way back). 
 * Parameters: None
@@ -69,7 +69,7 @@ void defaultBullet()
 /********************************************************************
 A-4 Function: initSetup
 =====================================================================
-* Written By: Victor Vuong
+* Written By: Anish Walawalkar
 * Purpose: Initializes the global arrays and moves the mechanical
 	components to their initial positions.
 * Parameters: None
@@ -96,7 +96,7 @@ void initSetup()
 /********************************************************************
 A-5 Function: scanArea
 =====================================================================
-* Written By: Sungjin Lee
+* Written By: Anish Walawalkar
 * Purpose: Scans the area around the robot and stores the different
 	distances in an array. It then uses these values to determine the
 	position of a target inside the vicinity of the robot.
@@ -193,7 +193,7 @@ void refineData()
 /********************************************************************
 A-7 Function: pinpointTarget
 =====================================================================
-* Written By: Victor Vuong
+* Written By: Anish Walawalkar
 * Purpose: Analyzes the data collected in the array and systematically
 	Finds and pinpoints the correct angle to shoot down the detected 
 	target(s).
